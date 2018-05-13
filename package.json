@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-boilerplate",
-  "version": "1.2.0",
-  "description": "React+Redux boilerplate",
+  "name": "sous-chef",
+  "version": "0.0.1",
+  "description": "Sous Chef app",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/won0089/react-redux-boilerplate.git"
+    "url": "git+https://github.com/won0089/sous-chef.git"
   },
   "engines": {
     "node": "8.11.0"
@@ -20,9 +20,9 @@
   "author": "Richard Cho",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/won0089/react-redux-boilerplate/issues"
+    "url": "https://github.com/won0089/sous-chef/issues"
   },
-  "homepage": "https://github.com/won0089/react-redux-boilerplate#readme",
+  "homepage": "https://github.com/won0089/sous-chef#readme",
   "devDependencies": {
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
