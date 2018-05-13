@@ -18,7 +18,8 @@ module.exports = {
             containers: path.resolve(__dirname, './src/client/containers'),
             reducers: path.resolve(__dirname, './src/client/reducers'),
             stores: path.resolve(__dirname, './src/client/stores'),
-            actions: path.resolve(__dirname, './src/client/actions')
+            actions: path.resolve(__dirname, './src/client/actions'),
+            apis: path.resolve(__dirname, './src/client/apis')
         }
     },
     module: {

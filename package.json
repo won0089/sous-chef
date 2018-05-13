@@ -49,6 +49,9 @@
     "webpack-merge": "^4.1.1"
   },
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "material-ui": "^0.20.1",
+    "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.6",
@@ -75,7 +78,8 @@
       "^containers(.*)": "<rootDir>/src/client/containers$1",
       "^reducers(.*)": "<rootDir>/src/client/reducers$1",
       "^stores(.*)": "<rootDir>/src/client/stores$1",
-      "^actions(.*)": "<rootDir>/src/client/actions$1"
+      "^actions(.*)": "<rootDir>/src/client/actions$1",
+      "^apis(.*)": "<rootDir>/src/client/apis$1"
     }
   }
 }

@@ -1,14 +1,15 @@
+import 'babel-polyfill';
 import React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import configureStore from 'stores';
-import App from 'containers/App';
+import Weekly from 'containers/Weekly';
 
 const store = configureStore();
 
 render(
     <Provider store={store}>
-        <App />
+        <Weekly />
     </Provider>,
     document.getElementById('app')
 );

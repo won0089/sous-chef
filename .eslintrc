@@ -21,11 +21,8 @@
         "no-console": "off",
         "indent": [
             "error",
-            4
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
+            4,
+            { "SwitchCase": 1 }
         ],
         "quotes": [
             "error",
